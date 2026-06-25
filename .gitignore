@@ -1,0 +1,24 @@
+# Virtual Environment
+.venv/
+venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# DATA (The heavy stuff)
+src/downloaded_data/
+src/merged_splits/
+src/split_by_state/
+src/split_by_state_by_year/
+src/split_by_year/
+src/older work for comparison/
+src/tax_evasion_synthetic_data/synthetic_output/
+
+# File types
+*.parquet
+*.csv
+*.xlsx
+*.pt
+*.pth
+*.log

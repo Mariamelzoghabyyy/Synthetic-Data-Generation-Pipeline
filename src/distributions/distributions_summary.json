@@ -1,0 +1,353 @@
+{
+  "zone_profiles": {
+    "1": {
+      "label": "Urban_Industrial",
+      "description": "High-density, manufacturing + services mix",
+      "population_share": 0.28,
+      "income_multiplier": 1.15,
+      "cost_of_living": 1.2,
+      "cash_business_density": 0.38,
+      "gig_economy_rate": 0.18,
+      "foreign_account_prevalence": 0.025,
+      "crypto_adoption": 0.09,
+      "rental_market_size": 0.31,
+      "industry_mix": {
+        "manufacturing": 0.22,
+        "retail_trade": 0.15,
+        "healthcare": 0.18,
+        "construction": 0.12,
+        "food_service": 0.1,
+        "transportation": 0.08,
+        "professional_services": 0.1,
+        "other": 0.05
+      },
+      "fraud_base_rate": 0.087,
+      "fraud_prevalence": {
+        "unreported_cash_income": 0.045,
+        "payroll_underreporting": 0.038,
+        "worker_misclassification": 0.055,
+        "revenue_suppression": 0.042,
+        "cash_skimming": 0.038,
+        "fictitious_deductions": 0.015,
+        "crypto_unreported": 0.008
+      },
+      "income_dist": {
+        "w2": {
+          "mu": 10.75,
+          "sigma": 0.72
+        },
+        "se": {
+          "mu": 10.55,
+          "sigma": 0.98
+        },
+        "biz": {
+          "mu": 11.2,
+          "sigma": 1.1
+        }
+      },
+      "median_home_value": 285000,
+      "rental_rate": 0.52,
+      "home_value_growth": {
+        "2019": 0.048,
+        "2020": 0.038,
+        "2021": 0.142,
+        "2022": 0.085,
+        "2023": -0.012,
+        "2024": 0.022,
+        "2025": 0.018
+      },
+      "business_density": 0.31,
+      "cash_business_rate": 0.38
+    },
+    "2": {
+      "label": "Suburban_Professional",
+      "description": "White-collar suburbs, high income, complex returns",
+      "population_share": 0.22,
+      "income_multiplier": 1.35,
+      "cost_of_living": 1.4,
+      "cash_business_density": 0.12,
+      "gig_economy_rate": 0.12,
+      "foreign_account_prevalence": 0.035,
+      "crypto_adoption": 0.14,
+      "rental_market_size": 0.22,
+      "industry_mix": {
+        "professional_services": 0.28,
+        "finance_insurance": 0.18,
+        "healthcare": 0.2,
+        "real_estate": 0.1,
+        "information_tech": 0.12,
+        "other": 0.12
+      },
+      "fraud_base_rate": 0.074,
+      "fraud_prevalence": {
+        "fictitious_deductions": 0.052,
+        "expense_recharacterization": 0.048,
+        "low_salary_scorp": 0.042,
+        "offshore_hidden": 0.018,
+        "shell_company_income_shifting": 0.022,
+        "crypto_unreported": 0.035,
+        "1099_not_reported": 0.028
+      },
+      "income_dist": {
+        "w2": {
+          "mu": 11.35,
+          "sigma": 0.68
+        },
+        "se": {
+          "mu": 11.15,
+          "sigma": 0.95
+        },
+        "biz": {
+          "mu": 11.85,
+          "sigma": 1.05
+        }
+      },
+      "median_home_value": 485000,
+      "rental_rate": 0.28,
+      "home_value_growth": {
+        "2019": 0.055,
+        "2020": 0.062,
+        "2021": 0.198,
+        "2022": 0.092,
+        "2023": -0.028,
+        "2024": 0.031,
+        "2025": 0.025
+      },
+      "business_density": 0.42,
+      "cash_business_rate": 0.12
+    },
+    "3": {
+      "label": "Rural_Agricultural",
+      "description": "Farming, small business, lower density",
+      "population_share": 0.18,
+      "income_multiplier": 0.82,
+      "cost_of_living": 0.82,
+      "cash_business_density": 0.55,
+      "gig_economy_rate": 0.1,
+      "foreign_account_prevalence": 0.005,
+      "crypto_adoption": 0.04,
+      "rental_market_size": 0.12,
+      "industry_mix": {
+        "agriculture": 0.3,
+        "construction": 0.18,
+        "retail_trade": 0.15,
+        "manufacturing": 0.12,
+        "healthcare": 0.1,
+        "other": 0.15
+      },
+      "fraud_base_rate": 0.091,
+      "fraud_prevalence": {
+        "farm_income_hidden": 0.062,
+        "unreported_cash_income": 0.055,
+        "worker_misclassification": 0.072,
+        "payroll_underreporting": 0.048,
+        "rental_income_hidden": 0.038,
+        "gig_income_omitted": 0.025
+      },
+      "income_dist": {
+        "w2": {
+          "mu": 10.45,
+          "sigma": 0.65
+        },
+        "se": {
+          "mu": 10.25,
+          "sigma": 1.05
+        },
+        "biz": {
+          "mu": 10.85,
+          "sigma": 1.15
+        }
+      },
+      "median_home_value": 128000,
+      "rental_rate": 0.32,
+      "home_value_growth": {
+        "2019": 0.032,
+        "2020": 0.025,
+        "2021": 0.118,
+        "2022": 0.075,
+        "2023": 0.008,
+        "2024": 0.015,
+        "2025": 0.012
+      },
+      "business_density": 0.22,
+      "cash_business_rate": 0.55
+    },
+    "4": {
+      "label": "Tech_Innovation_Hub",
+      "description": "High-growth tech, startups, equity compensation",
+      "population_share": 0.2,
+      "income_multiplier": 1.55,
+      "cost_of_living": 1.65,
+      "cash_business_density": 0.08,
+      "gig_economy_rate": 0.22,
+      "foreign_account_prevalence": 0.045,
+      "crypto_adoption": 0.22,
+      "rental_market_size": 0.28,
+      "industry_mix": {
+        "information_tech": 0.38,
+        "professional_services": 0.22,
+        "finance_insurance": 0.15,
+        "real_estate": 0.08,
+        "other": 0.17
+      },
+      "fraud_base_rate": 0.068,
+      "fraud_prevalence": {
+        "crypto_unreported": 0.085,
+        "offshore_hidden": 0.038,
+        "shell_company_income_shifting": 0.045,
+        "low_salary_scorp": 0.055,
+        "1099_not_reported": 0.042,
+        "expense_recharacterization": 0.052,
+        "gig_income_omitted": 0.038
+      },
+      "income_dist": {
+        "w2": {
+          "mu": 11.65,
+          "sigma": 0.82
+        },
+        "se": {
+          "mu": 11.45,
+          "sigma": 1.18
+        },
+        "biz": {
+          "mu": 12.05,
+          "sigma": 1.35
+        }
+      },
+      "median_home_value": 785000,
+      "rental_rate": 0.45,
+      "home_value_growth": {
+        "2019": 0.072,
+        "2020": 0.048,
+        "2021": 0.245,
+        "2022": 0.105,
+        "2023": -0.058,
+        "2024": 0.018,
+        "2025": 0.035
+      },
+      "business_density": 0.58,
+      "cash_business_rate": 0.08
+    },
+    "5": {
+      "label": "Mixed_Border_Economy",
+      "description": "Cross-border commerce, tourism, hospitality-heavy",
+      "population_share": 0.12,
+      "income_multiplier": 0.92,
+      "cost_of_living": 0.95,
+      "cash_business_density": 0.62,
+      "gig_economy_rate": 0.2,
+      "foreign_account_prevalence": 0.048,
+      "crypto_adoption": 0.07,
+      "rental_market_size": 0.18,
+      "industry_mix": {
+        "hospitality_tourism": 0.28,
+        "retail_trade": 0.2,
+        "transportation": 0.15,
+        "construction": 0.12,
+        "food_service": 0.15,
+        "other": 0.1
+      },
+      "fraud_base_rate": 0.062,
+      "fraud_prevalence": {
+        "unreported_cash_income": 0.072,
+        "offshore_hidden": 0.045,
+        "worker_misclassification": 0.068,
+        "revenue_suppression": 0.055,
+        "cash_skimming": 0.062,
+        "rental_income_hidden": 0.042
+      },
+      "income_dist": {
+        "w2": {
+          "mu": 10.65,
+          "sigma": 0.78
+        },
+        "se": {
+          "mu": 10.45,
+          "sigma": 1.12
+        },
+        "biz": {
+          "mu": 11.05,
+          "sigma": 1.2
+        }
+      },
+      "median_home_value": 210000,
+      "rental_rate": 0.48,
+      "home_value_growth": {
+        "2019": 0.038,
+        "2020": -0.015,
+        "2021": 0.128,
+        "2022": 0.095,
+        "2023": 0.022,
+        "2024": 0.028,
+        "2025": 0.02
+      },
+      "business_density": 0.35,
+      "cash_business_rate": 0.62
+    }
+  },
+  "macro_shocks": {
+    "2019": {
+      "gdp_growth": 0.023,
+      "unemployment": 0.037,
+      "inflation": 0.023,
+      "covid_shock": 0.0,
+      "crypto_price_index": 1.0,
+      "irs_audit_rate": 0.0045,
+      "gig_growth_factor": 1.0
+    },
+    "2020": {
+      "gdp_growth": -0.033,
+      "unemployment": 0.081,
+      "inflation": 0.012,
+      "covid_shock": 1.0,
+      "crypto_price_index": 3.1,
+      "irs_audit_rate": 0.0032,
+      "gig_growth_factor": 1.28
+    },
+    "2021": {
+      "gdp_growth": 0.057,
+      "unemployment": 0.054,
+      "inflation": 0.047,
+      "covid_shock": 0.6,
+      "crypto_price_index": 12.4,
+      "irs_audit_rate": 0.0029,
+      "gig_growth_factor": 1.41
+    },
+    "2022": {
+      "gdp_growth": 0.021,
+      "unemployment": 0.037,
+      "inflation": 0.08,
+      "covid_shock": 0.1,
+      "crypto_price_index": 4.8,
+      "irs_audit_rate": 0.0038,
+      "gig_growth_factor": 1.35
+    },
+    "2023": {
+      "gdp_growth": 0.025,
+      "unemployment": 0.037,
+      "inflation": 0.041,
+      "covid_shock": 0.0,
+      "crypto_price_index": 6.2,
+      "irs_audit_rate": 0.0044,
+      "gig_growth_factor": 1.29
+    },
+    "2024": {
+      "gdp_growth": 0.028,
+      "unemployment": 0.039,
+      "inflation": 0.029,
+      "covid_shock": 0.0,
+      "crypto_price_index": 15.1,
+      "irs_audit_rate": 0.0052,
+      "gig_growth_factor": 1.31
+    },
+    "2025": {
+      "gdp_growth": 0.024,
+      "unemployment": 0.041,
+      "inflation": 0.026,
+      "covid_shock": 0.0,
+      "crypto_price_index": 18.3,
+      "irs_audit_rate": 0.0058,
+      "gig_growth_factor": 1.27
+    }
+  }
+}
